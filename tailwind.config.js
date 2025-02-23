@@ -5,23 +5,37 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#FF6B6B',
-          50: '#FFF0F0',
-          100: '#FFE1E1',
-          200: '#FFC4C4',
-          300: '#FFA7A7',
-          400: '#FF8989',
-          500: '#FF6B6B',
-          600: '#FF3D3D',
-          700: '#FF0F0F',
-          800: '#E10000',
-          900: '#B30000',
+          DEFAULT: '#2563eb',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
         },
-        'primary-dark': '#FF5252',
+        dark: {
+          bg: '#0f172a',
+          card: '#1e293b',
+          border: '#334155',
+          text: '#94a3b8',
+          hover: '#334155'
+        },
+        light: {
+          bg: '#ffffff',
+          card: '#f8fafc',
+          border: '#e2e8f0',
+          text: '#64748b',
+          hover: '#f1f5f9'
+        },
         secondary: '#4ECDC4',
       },
       container: {
