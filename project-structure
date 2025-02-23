@@ -1,0 +1,30 @@
+paragon-food-nextjs/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Navbar.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Navbar.tsx
+│   │   ├── home/
+│   │   │   ├── HeroSection.tsx
+│   │   │   ├── CategorySection.tsx
+│   │   │   ├── FlashSaleSection.tsx
+│   │   │   ├── PopularProducts.tsx
+│   │   │   └── Testimonials.tsx
+│   │   └── shared/
+│   │       ├── ProductCard.tsx
+│   │       ├── CartWidget.tsx
+│   │       └── Button.tsx
+│   ├── types/
+│   │   └── index.ts
+│   └── lib/
+│       └── utils.ts
+├── public/
+│   └── images/
+└── tailwind.config.js 
